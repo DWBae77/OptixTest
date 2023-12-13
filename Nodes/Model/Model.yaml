@@ -1,0 +1,38 @@
+Name: Model
+Id: g=24a06b32be53bd8b03060bb1ef4bc966
+Type: ModelCategoryFolder
+Children:
+- Name: Ingredient01
+  Id: g=8ae39c282b45645c2b146d70a69b7518
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Ingredient02
+  Id: g=3d2e4a6b9aff293a87a96b8746c7a000
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Ingredient03
+  Id: g=f22394b7ff9c37ea03ebb6cc639b3747
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Motor1Alarm
+  Id: g=7e75400650059ba0650c89127ca0bc70
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Temperature
+  Id: g=1ec99f2a5e6df9ebdb6796d9e6586862
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable1
+  Id: g=0b835d3b9976235dfcbee1abe6d7c082
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 50
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 100

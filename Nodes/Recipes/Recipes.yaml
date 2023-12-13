@@ -1,0 +1,92 @@
+Name: Recipes
+Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema1
+  Id: g=678ef5aef438229c8f8f72eb8994831a
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Ingredient01
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ingredient02
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ingredient03
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Class: Reference
+    Target: ns=15;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"24a06b32be53bd8b03060bb1ef4bc966","Namespace":32}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"663d7ef7c4b16b898c678917b0daad1d","Namespace":32}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":9}
+  - Name: EditModel
+    Id: g=f91aeddb7190da23dd7551378929b7b7
+    Type: BaseObjectType
+    Children:
+    - Name: Ingredient01
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ingredient02
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Ingredient03
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
